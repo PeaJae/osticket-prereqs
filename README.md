@@ -24,11 +24,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Instal and Enable IIS on Windows with CGI and Common http features 
+- Enable IIS Management Console  
+- Download and Install PHP Manager
+- Download and Install Rewrite Module
+- Create C:\PHP Directory 
+- Download PHP file and unzip into C:\PHP Directory
+- Download and Inst VC.Redist.x86.exe
+- Download and Install MySQL
+- Open IIs as Admin
+- Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh osTicket in browser
+Rename: ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+Download and Instal HeidiSQL
+Set up OsTicket in browser
+
+
 
 <h2>Installation Steps</h2>
 
