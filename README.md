@@ -34,18 +34,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download and Install MySQL
 - Open IIs as Admin
 - Enable: php_imap.dll
-Enable: php_intl.dll
-Enable: php_opcache.dll
-Refresh osTicket in browser
-Rename: ost-config.php
-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+-Enable: php_intl.dll
+-Enable: php_opcache.dll
+-Refresh osTicket in browser
+-Rename: ost-config.php
+-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+-To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Assign Permissions: ost-config.php
-Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
-Download and Instal HeidiSQL
-Set up OsTicket in browser
+-Assign Permissions: ost-config.php
+-Disable inheritance -> Remove All
+-New Permissions -> Everyone -> All
+-Download and Instal HeidiSQL
+-Set up OsTicket in browser
 
 
 
